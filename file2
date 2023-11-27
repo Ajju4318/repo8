@@ -27,3 +27,12 @@ Merging Branches:
 First, switch to the branch you want to merge into (usually the main branch).
 # Switch to the main branch
 git checkout main
+Then, merge another branch into the main branch.
+# Merge another branch into the current branch (e.g., main)
+git merge <other_branch>
+8. Merge Conflict Resolution:
+During a merge, conflicts might arise in case of conflicting changes in different branches. Git will indicate these conflicts, and manual resolution is needed.
+
+Remote Branches:
+9. List Remote Branches:
+
