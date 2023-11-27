@@ -42,6 +42,3 @@ git push origin <local_branch_name>:<remote_branch_name>
 # Delete a remote branch
 git push origin --delete <remote_branch_name>
 Git branches are powerful tools for managing and organizing development workflows, allowing developers to work on features or bug fixes independently before merging changes back into the main codebase. Understanding how to create, switch, merge, and manage branches is crucial for effective version control in Git.
-AAAAAAAAAAAAAAA
-BBBBBBBBBB
-CCCCCCCCCCC
