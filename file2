@@ -19,3 +19,11 @@ git branch
 git branch -d <branch_name>
 To force delete a branch (even if changes are not merged):
 git branch -D <branch_name>
+6. Rename a Branch:
+# Rename the current branch
+git branch -m <new_branch_name>
+Merging Branches:
+7. Merge a Branch:
+First, switch to the branch you want to merge into (usually the main branch).
+# Switch to the main branch
+git checkout main
