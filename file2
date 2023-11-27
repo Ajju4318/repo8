@@ -4,3 +4,9 @@ Creating Branches:
 1. Create a New Branch:
 # Create a new branch
 git branch <branch_name>
+ Switch to a Branch:
+ # Switch to an existing branch
+git checkout <branch_name>
+Create and Switch to a New Branch (Shortcut):
+# Create a new branch and switch to it
+git checkout -b <new_branch_name>
