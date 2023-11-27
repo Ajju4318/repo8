@@ -10,3 +10,12 @@ git checkout <branch_name>
 Create and Switch to a New Branch (Shortcut):
 # Create a new branch and switch to it
 git checkout -b <new_branch_name>
+Listing and Managing Branches:
+4. List All Branches:
+# List all branches in the repository
+git branch
+5. Delete a Branch:
+# Delete a branch (only if changes are merged)
+git branch -d <branch_name>
+To force delete a branch (even if changes are not merged):
+git branch -D <branch_name>
