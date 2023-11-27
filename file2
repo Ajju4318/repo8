@@ -35,4 +35,25 @@ During a merge, conflicts might arise in case of conflicting changes in differen
 
 Remote Branches:
 9. List Remote Branches:
+# List remote branches
+git branch -r
+10. Create a Remote Branch from a Local Branch:
+# Push a local branch to create a new remote branch
+git push origin <local_branch_name>:<remote_branch_name>
+11. Delete a Remote Branch:
+# Delete a remote branch
+git push origin --delete <remote_branch_name>
+Git branches are powerful tools for managing and organizing development workflows, allowing developers to work on features or bug fixes independently before merging changes back into the main codebase. Understanding how to create, switch, merge, and manage branches is crucial for effective version control in Git.
+
+
+
+
+
+
+
+
+
+
+
+
 
