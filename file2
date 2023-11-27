@@ -1,0 +1,6 @@
+Certainly! In Git, branches are an essential feature that allows for parallel development, enabling multiple lines of work to progress independently. Here's an overview of Git branches:
+
+Creating Branches:
+1. Create a New Branch:
+# Create a new branch
+git branch <branch_name>
